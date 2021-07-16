@@ -1,9 +1,6 @@
+import Navabar from "../components/Navbar"
 
- const index = () => {
-  return (
-    <div>
-      heloo world
-    </div>
-  )
+const index = () => {
+  return <div>sidbar</div>
 }
 export default index
