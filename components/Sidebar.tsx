@@ -1,13 +1,16 @@
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai"
 import { GoLocation } from "react-icons/go"
 import { GiTie } from "react-icons/gi"
+import Image from "next/image"
 const Sidebar = () => {
   return (
     <div>
-      <img
-        className='w-32 h-32 mx-auto rounded-full'
+      <Image
+        className='mx-auto border rounded-full '
         src='https://0.gravatar.com/avatar/3561c0b79496f6b3e0216e5b9e17d141?s=400&d=mm'
         alt=''
+        width='128px'
+        height='128px'
       />
       <h3 className='my-4 text-2xl font-medium tracking-wider font-kaushan'>
         <span>Chetan</span>Mahajan
